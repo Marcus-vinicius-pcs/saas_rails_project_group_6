@@ -46,10 +46,15 @@ jobs:
         uses: ruby/setup-ruby@v1 # Use the latest stable version of setup-ruby action
         with:
           bundler-cache: true
-      # Add or replace any other lints here
+      - name: Install bundler-audit gem
+        run: gem install bundler-audit
       - name: Security audit dependencies
-        run: bundle exec bin/bundler-audit --update
+        run: bundle exec bundler-audit --update
       - name: Security audit application code
         run: bundle exec bin/brakeman -q -w2
       - name: Lint Ruby files
         run: bundle exec bin/rubocop --parallel
+
+
+
+
