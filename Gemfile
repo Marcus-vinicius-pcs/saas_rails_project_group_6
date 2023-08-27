@@ -24,6 +24,7 @@ group :development, :test do
   gem 'debug', platforms: %i[mri mingw x64_mingw]
   gem 'rspec-rails'
   gem 'cucumber-rails', require: false
+  gem 'bundler-audit'
 end
 
 group :development do
