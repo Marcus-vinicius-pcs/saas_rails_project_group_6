@@ -18,14 +18,7 @@ development:
 # Do not set this db to the same as development or production.
 test:
   <<: *default
-  adapter: postgresql
-  encoding: unicode
-  database: rails_test
-  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
-  username: rails
-  password: password
-  host: localhost
-
+  database: db/test.sqlite3
 
 production:
   <<: *default
