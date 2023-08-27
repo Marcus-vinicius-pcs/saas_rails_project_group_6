@@ -26,6 +26,7 @@ group :development, :test do
   gem 'cucumber-rails', require: false
   gem 'bundler-audit'
   gem 'brakeman'
+  gem 'rubocop'
 end
 
 group :development do
