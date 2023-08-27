@@ -25,6 +25,7 @@ group :development, :test do
   gem 'rspec-rails'
   gem 'cucumber-rails', require: false
   gem 'bundler-audit'
+  gem 'brakeman'
 end
 
 group :development do
