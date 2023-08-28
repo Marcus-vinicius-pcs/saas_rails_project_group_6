@@ -27,7 +27,7 @@ group :development, :test do
   gem 'bundler-audit'
   gem 'brakeman'
   gem 'rubocop'
-  gem 'coveralls', require: false
+  gem 'coveralls_reborn', require: false
 end
 
 group :development do
