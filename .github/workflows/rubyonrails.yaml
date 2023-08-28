@@ -31,13 +31,13 @@ jobs:
       # - name: Set up database schema
       #   run: bin/rails db:schema:load
       # Run RSpec tests
-      - name: Coveralls GitHub Action
-        uses: coverallsapp/github-action@v2
       - name: Run RSpec tests
         run: bundle exec rake spec
       # Run Cucumber tests
       - name: Run Cucumber tests
         run: bundle exec rake cucumber
+      - name: Coveralls GitHub Action
+        uses: coverallsapp/github-action@v2
 
   # lint:
   #   runs-on: ubuntu-latest
