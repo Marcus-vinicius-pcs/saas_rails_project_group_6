@@ -1,3 +1,5 @@
+require 'coveralls_reborn'
+Coveralls.wear_merged!('rails')
 require 'simplecov'
 
 SimpleCov.start 'rails' do
