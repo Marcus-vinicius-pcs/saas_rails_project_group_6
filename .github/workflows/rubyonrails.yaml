@@ -31,6 +31,8 @@ jobs:
       # - name: Set up database schema
       #   run: bin/rails db:schema:load
       # Run RSpec tests
+      - name: Set execute permissions for bin/rails
+        run: chmod +x bin/rails
       - name: Setting Rails Environment
         run: bin/rails db:create db:migrate RAILS_ENV=test
       - name: Run RSpec tests
