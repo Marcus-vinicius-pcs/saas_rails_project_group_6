@@ -27,8 +27,6 @@ group :development, :test do
   gem 'bundler-audit'
   gem 'brakeman'
   gem 'rubocop'
-  gem 'simplecov'
-  gem 'simplecov-lcov', '~> 0.8.0'
   gem 'coveralls_reborn', require: false
 end
 
@@ -41,4 +39,5 @@ group :test do
   gem 'selenium-webdriver'
   gem 'webdrivers'
   gem 'database_cleaner'
+  gem 'coveralls_reborn', require: false
 end
