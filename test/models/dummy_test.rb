@@ -1,4 +1,4 @@
-require 'coveralls_reborn'
+
 Coveralls.wear_merged!('rails')
 
 require 'test_helper'
