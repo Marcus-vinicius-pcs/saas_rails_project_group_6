@@ -8,7 +8,7 @@ Repositório destinado ao desenvolvimento do projeto proposto na disciplina de E
 ## iBus
 Projeto para o desenvolvimento de uma plataforma de aluguel de ônibus para viagens
 
-Link do projeto no Render: https://dashboard.render.com/web/srv-cjmj2r4dfrcc738e7k7g
+Link do projeto no Render: https://group-6-web-app-esi.onrender.com
 
 Membros:
 Marcus Vinicius Pizzo Cognolatto Santos
