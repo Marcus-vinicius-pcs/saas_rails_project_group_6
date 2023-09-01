@@ -45,7 +45,7 @@ jobs:
       - name: Upload coverage to Coveralls
         env:
           COVERALLS_REPO_TOKEN: ${{ secrets.COVERALLS_REPO_TOKEN }}
-        run: bundle exec coveralls push
+        uses: coverallsapp/github-action@v2
 
   # lint:
   #   runs-on: ubuntu-latest
