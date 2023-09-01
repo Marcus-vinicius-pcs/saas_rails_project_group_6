@@ -5,7 +5,15 @@
 # saas_rails_project_group_6
 Repositório destinado ao desenvolvimento do projeto proposto na disciplina de Engenharia de Software.
 
+## iBus
+Projeto para o desenvolvimento de uma plataforma de aluguel de ônibus para viagens
 
-Membros: 
+Link do projeto no Render: https://dashboard.render.com/web/srv-cjmj2r4dfrcc738e7k7g
 
+Membros:
 Marcus Vinicius Pizzo Cognolatto Santos
+Luan Guilherme Galvao de Andrade
+Vinicius Alexandre de Oliveira Zevarex
+Paulo Henrique Suniga Leandro
+João Victor Oliveira
+Brendon
